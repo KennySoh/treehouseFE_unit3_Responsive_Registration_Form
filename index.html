@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- MetaTags for seo/ Css stylesheets-->
+  <title>HTML Form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap" rel="stylesheet">
+</head>
+<body class="m-center">
+  <header class="header-title center">THE CODE REVIEW</header>
+  <main>
+    <form class="m-center" action="index.html" method="POST">
+      <h1 class="form-title center">Signup for our newsletter</h1>
+      <div class="form-description center"> Get the latest news on how your code is doing right in your inbox</div>
+      <fieldset id="contact-information">
+        <legend>Contact Information</legend>
+        <div class="container">
+          <div class="item">
+            <label class="item-nested"for="name">Full Name</label>
+            <div class="required-parent item-nested">
+              <input type="text" id="name" name="user_name" required placeholder="Required">
+            </div>
+          </div>
+
+          <div class="item">
+            <label class="item-nested" for="email">Email Address</label>
+            <div class="required-parent item-nested">
+              <input type="email" id="email" name="user_email" required placeholder="Required">
+            </div>
+          </div>
+
+          <div class="item">
+            <label class="item-nested" for="phone">Phone Number</label>
+            <div class="non-required-parent item-nested">
+              <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+            </div>
+          </div>
+
+          <div class="item">
+            <label class="item-nested" for="address">Street Address</label>
+            <div class="non-required-parent item-nested">
+              <input type="text" id="address" name="user_address">
+            </div>
+          </div>
+
+          <div class="item">
+            <label class="item-nested" for="city">City</label>
+            <div class="non-required-parent item-nested">
+              <input type="text" id="city" name="user_city">
+            </div>
+          </div>
+
+          <div class="item">
+            <label class="item-nested" for="state">State</label>
+            <div class="non-required-parent item-nested">
+              <select id="state" name="user_state">
+                <option value="" disabled selected>State</option>
+                <option value="frontend_developer">Front-End Developer</option>
+                <option value="php_developer">PHP Developer</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="item">
+            <label class="item-nested" for="zipcode">Zip Code</label><br>
+            <div class="non-required-parent item-nested">
+              <input class="item-nested" type="number" id="zipcode" name="user_zipcode">
+            </div>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Newsletter</legend>
+        <div class="newsletter">
+          <label>Select the newsletters you would like to recieve</label><br>
+          <input type="checkbox"  id="html_news" value="html_news" name="user_newsletter"><label for="html_news">HTML News</label><br>
+          <input type="checkbox"  id="css_news" value="css_news" name="user_newsletter"><label for="css_news">CSS News</label><br>
+          <input type="checkbox"  id="js_news" value="js_news" name="user_newsletter"><label for="js_news">Javascript News</label><br>
+        </div>
+
+        <div class="newsletter">
+          <label>Newsletter format</label><br>
+          <input type="radio"  id="html" value="html" name="user_news_format"><label for="html">HTML</label><br>
+          <input type="radio"  id="plain" value="plain" name="user_news_format"><label for="plain">Plain text</label><br>
+        </div>
+
+        <label for="other_topic">Other topics you'd like to hear about</label>
+        <textarea id="other_topic" name="user_other_topic"></textarea>
+      </fieldset>
+      <button class="center" type="submit">Sign Up</button>
+    </form>
+  </main>
+  <footer class="center">Copyright The Code Review</footer>
+</body>
+</html>
