@@ -1,19 +1,6 @@
 /* =================================
   Base Element Styles
 ==================================== */
-/*
-.center
-.header-title
-.form-title
-.form-description
-fieldset{
-  border:none;
-}
-fieldset>legend{
-  fontweight:
-  textsize:
-}
-*/
 
 * {
 	box-sizing: border-box;
