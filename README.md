@@ -19,7 +19,7 @@ A responsive HTML Form coded from scratch.
    - breakpoint set at 768px
 ***
 
-To explore the project visit the Github Page: https://kennysoh.github.io/treehouse_unit3_Responsive_Registration_Form
+To explore the project visit the Github Page: https://kennysoh.github.io/treehouseFE_unit3_Responsive_Registration_Form
 
 ## A sample of the project
 
