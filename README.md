@@ -22,3 +22,6 @@ A responsive HTML Form coded from scratch.
 To explore the project visit the Github Page: https://kennysoh.github.io/treehouse_unit3_Responsive_Registration_Form
 
 ## A sample of the project
+
+
+|![images](https://github.com/KennySoh/treehouse_unit3_Responsive_Registration_Form/blob/master/sample-pic1.png) |
